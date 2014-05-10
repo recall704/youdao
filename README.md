@@ -5,5 +5,6 @@ youdao
 
 
 ======
+setup.py  does not work, don't use it  !
 
-在win xp上测试通过，在debian上测试通过，但setup.py 不能在windows xp上使用。
+由于setup.py不能在windows xp上使用，所以不要使用它。
