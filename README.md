@@ -5,6 +5,4 @@ youdao
 
 
 ======
-setup.py  does not work, don't use it  !
-
-由于setup.py不能在windows xp上使用，所以不要使用它。
+2014年6月26日0:28:05 更新
