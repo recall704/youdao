@@ -6,6 +6,7 @@ import urllib2
 import urllib
 import sys
 import json
+import getopt
 
 URL = 'http://fanyi.youdao.com/openapi.do?keyfrom=cctv10&key=1365682047&type=data&doctype=json&version=1.1&q='
 
@@ -40,8 +41,16 @@ def get_result(word):
     
     
 
+
+def main():
+    try:
+        options, args = getopt.getopt(sys.argv[1:], ["help"])
+    except getopt.GetoptError as e:
+        pass
+
+    word = args[0]
+    get_result(word)
+
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        print u'无效的参数个数'
-    else:
-        get_result(sys.argv[1])
+    main()
+        
