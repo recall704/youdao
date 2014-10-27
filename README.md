@@ -12,9 +12,11 @@ youdao
 1. 安装
    sudo python setup.py install
 2. 使用
-  2.1  查询英文  
+2.1  查询英文  
       # yd hello
-  2.2   查询中文
+
+
+2.2   查询中文
       # yd 中文
 
 
